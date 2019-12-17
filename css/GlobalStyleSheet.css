@@ -1,6 +1,6 @@
 .splash_div
 {
-    height : 100vh;
+    height : 85vh;
     width: auto;
 }
 
@@ -50,4 +50,145 @@ body
     color : white;
     width: 100px;
     text-align: center;
+}
+
+#content_div
+{
+    background-color: white;
+    padding : 15px;
+}
+
+#projects_div
+{
+    margin: 15px;
+}
+
+.item_card
+{
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.25);
+    width: 250px;
+    padding : 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.flex_mid_col{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.img_card {
+    width: 125px;
+}
+
+.card_title
+{
+    text-align: center;
+}
+
+.card_content
+{
+    text-align: center;
+}
+
+.card_button
+{
+    width: 60%;
+    background-color: white;
+    color: #99cc00;
+    border : 1px solid #99cc00;
+    border-radius: 5px;
+    padding : 5px;
+    margin: 0 0 5px 0;
+}
+
+.card_button:hover
+{
+    background-color: #99cc00;
+    color : white;
+}
+
+.card_button_web
+{
+    width: 60%;
+    background-color: white;
+    color: #2a77aa;
+    border : 1px solid #2a77aa;
+    border-radius: 5px;
+    padding : 5px;
+    margin: 0 0 5px 0;
+}
+
+.card_button_web:hover
+{
+    background-color: #2a77aa;
+    color : white;
+}
+
+.inner_content
+{
+    margin: 20px 10px 10px 10px;
+}
+
+#stats
+{
+    margin: 40px 5px 40px 5px;
+
+}
+
+#rating
+{
+    width : 90%;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.25);
+    display : flex;
+    flex-direction:row;
+    height: 150px;
+    border-radius: 10px;
+    margin: 20px 0 20px 5%;
+}
+#avg_rating
+{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#go_reviews
+{
+    width: 20%;
+    background-color: #0385d5;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+#proj_stats
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.card_stats
+{
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
 }
