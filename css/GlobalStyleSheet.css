@@ -60,7 +60,7 @@ body
 
 #projects_div
 {
-    margin: 15px;
+    margin: 75px 15px 75px 15px;
 }
 
 .item_card
@@ -137,7 +137,7 @@ body
 
 #stats
 {
-    margin: 40px 5px 40px 5px;
+    margin: 75px 15px 75px 15px;
 
 }
 
@@ -286,7 +286,7 @@ body
 
 #about
 {
-    margin: 20px 0 20px 0;
+    margin: 75px 15px 75px 15px;
 }
 
 #about_desc
@@ -423,7 +423,10 @@ body
 
 #footer
 {
-    margin: 150px 20px 20px 20px;
+    margin: 75px -15px -15px -15px;
+    background-color: #15304e;
+    padding: 60px 0 60px 0;
+    color: white;
 }
 
 #queries
@@ -443,6 +446,7 @@ body
     align-items: center;
     cursor: pointer;
     z-index: 1;
+
 }
 
 .subm_head
@@ -464,12 +468,12 @@ body
     border-radius: 10px;
     background-color: #ffffff;
     display: none;
+
 }
 
 #query_form
 {
     padding: 5px 15px 5px 15px;
-
 }
 
 label
@@ -490,9 +494,32 @@ label
     border: 1px solid orange;
     border-radius: 3px;
     padding: 3px 10px 3px 10px;
+    cursor: pointer;
 }
 
 #icon_close_chat
 {
     display: none;
+}
+
+#query_error_hint
+{
+    color : red;
+    font-size: 10px;
+    text-align: center;
+    margin: 0;
+    display: none;
+}
+
+#query_loader, #query_submit_success
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 240px;
+    height: 120px;
+    border-radius: 10px;
+    color : orange;
 }
