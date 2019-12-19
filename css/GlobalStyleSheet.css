@@ -302,13 +302,13 @@ body
 
 #about_team
 {
-    margin: 20px 0 20px 0;
+    margin: 20px 0 20px 5%;
+    width: 90%;
 }
 
 #team
 {
-    width: 90%;
-    margin: 20px 0 20px 5%;
+    margin: 20px 0 20px 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -404,4 +404,17 @@ body
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#footer_desc
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer
+{
+    margin: 150px 20px 20px 20px;
 }
